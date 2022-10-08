@@ -2,7 +2,7 @@
 
 defined('BASEPATH') || exit('Direct script access is prohibited.');
 
-// Escape the String, Set 2nd Argument to True for Decoding.
+// Escape the String, Set 2nd Argument to True for Decoding...
 function esc($str, $html = false) {
     if($html) return html_entity_decode($str);
     return htmlentities($str);
